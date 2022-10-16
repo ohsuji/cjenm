@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+.look_main {
+  background: url(../img/deco.png);
+  padding-top: 100px;
+}
+.look_main .look_before {
+  position: relative;
+}
+.look_main .look_before h2 {
+
+}
+.look_main .look_before .look_link {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.look_main .look_before .look_link ul {
+  display: flex;
+  gap: 30px;
+}
+.look_main .look_before .look_link ul li {
+  font-size: 17px;
+  font-weight: 600;
+}
+.look_main .look_before .look_link ul li:first-child {
+  color: #444;
+}
+.look_main .look_before .look_link ul li a {
+
+}
+.look_main .look_before .look_link ul li a:hover {
+  color: #888;
+  width: 100%;
+}
+.look_main .look_before .look_link ul li a::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #888;
+  transform: translateY(10px);
+  transition: all 0.4s;
+}
+.look_main .look_before .look_link ul li:hover a::after {
+  animation: 
+}
+.look_main .look_before .look_title {
+
+}
+.look_main .look_before .look_title h3 {
+  font-family: 'Libre Bodoni', serif;
+  font-size: 60px;
+  font-style: italic;
+  margin-top: 70px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.look_main .look_before .look_title p {
+  font-size: 18px;
+  line-height: 5;
+}
+.look_main .look_before .look_title p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #aaa;
+}
+.look_main .look_before .edit {
+  position: relative;
+  display: flex;
+  margin: 30px;
+}
+.look_main .look_before .edit img {
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.look_main .look_before .edit p {
+
+}
+.look_main .look_before .edit .sns {
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.look_main .look_before .edit .sns ul {
+
+  display: flex;
+}
+.look_main .look_before .edit .sns ul li {
+
+}
+.look_main .look_before .edit .sns ul li a {
+
+}
+.look_main .look_before .edit .sns ul li a img {
+  width: 25px;
+}
+.look_main .look_before .look_cont {
+
+}
+.look_main .look_before .look_cont img {
+  display: block;
+  margin: 0 auto;
+}
+.look_main .look_before .look_cont .t_box1 {
+
+}
+.look_main .look_before .look_cont .t_box1 p {
+  font-size: 35px;
+  margin: 30px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+}
+.look_main .look_before .look_cont .t_box2 {
+}
+.look_main .look_before .look_cont .t_box2 p {
+  background: #121212;
+  padding: 30px 20px 30px;
+  line-height: 1.6;
+  opacity: .9;
+}
+.look_main .look_before .look_cont .t_box2 span {
+  font-size: 22px;

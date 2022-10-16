@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+/** section_1 **/
+.section1 {
+  /*! padding: 100px 0 100px; */
+  height: 90vh;
+}
+.section1 h2 {
+  font-size: 30px;
+  line-height: 1.3;
+}
+.section1 h2 span {
+  color: #ff5a00;
+  font-size: 55px;
+}
+.section1 .content_wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+}
+.section1 .content_wrap .content {
+  position: relative;
+}
+.section1 .content_wrap .content .img_wrap {
+}
+.section1 .content_wrap .content .img_wrap a {
+  
+}
+.section1 .content_wrap .content .img_wrap img {
+  
+}
+.section1 .content_wrap .content .img_wrap img:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section1 .content_wrap .content .img_wrap img:nth-of-type(2):hover {
+  display: none;
+}
+.section1 .content_wrap .content .section_text {
+  /*! position: absolute; */
+  top: 65%;
+  left: 10%;
+}
+.section1 .content_wrap .content .section_text h3 {
+  font-size: 30px;
+}
+.section1 .content_wrap .content .section_text p {
+  color: #ccc;
+  font-size: 18px;
+}
+
+/** section_2 **/
+.section2 {
+  position: relative;
+  display: flex;
+}
+.section2 h2 {
+  
+}
+.section2 img {
+  
+  width: 550px;
+}
+.section2 .section_text {
+  float: right;
+  position: relative;
+  margin: 15px 0 30px 0;
+}
+.section2 .section_text p {
+  font-size: 23px;
+  text-align: center;
+}
+.section2 .section_text p strong {
+  font-size: 40px;
+  font-family: 'Patua One', cursive;
+  font-style: italic;
+}
+.section2 .section_text .edit {
+  display: flex;
+  margin: 30px 30px;
+  position: relative;
+}
+.section2 .section_text .edit img {
+  border-radius: 50px;
+  width: 48px;
+}
+.section2 .section_text .edit p {
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: start;
+}
+.section2 .section_text .sns {
+  
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.section2 .section_text .sns ul {
+  display: flex;
+}
+.section2 .section_text .sns ul li {
+
+}
+.section2 .section_text .sns ul li a {
+
+}
+.section2 .section_text .sns img {
+  font-size: 0;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.section2 .section_text .more {
+  
+}
+.section2 .section_text .more::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #aaa;
+}
+.section2 .section_text .more button {
+  margin-top: 40px;
+  margin-left: 30px;
+  border: none;
+  background: #111;
+}
+.section2 .section_text .more button a {
+  font-size: 16px;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  background: transparent;
+}
+.section2 .section_text .more button a:hover {
+  background: #333;
+  opacity: 0.8;
+  transition: .4s;
+}
+
+/** section_3 **/
+.section3 {
+  
+}
+.section3 h2 {
+  
+}
+.section3 h2 a {
+  
+}
+.section3 .featured_wrap {
+  
+}
+.section3 .featured_wrap h3 {
+  font-size: 28px;
+  line-height: 3;
+}
+.section3 .featured_wrap ul {
+  display: flex;
+  gap: 30px;
+}
+.section3 .featured_wrap ul li {
+  flex: 1;
+  margin-bottom: 40px;
+}
+.section3 .featured_wrap ul li a {
+  
+}
+.section3 .featured_wrap ul li a figure {
+  
+}
+.section3 .featured_wrap ul li a figure img {
+  position: relative;
+}
+.section3 .featured_wrap h4 {
+  font-size: 20px;
+  margin: 30px 0 10px;
+}
+.section3 .featured_wrap p {
+  font-size: 15px;
+  color: #ccc;
+}
+.section3 .featured_wrap span {
+  font-size: 13px;
+  color: #888;
+  line-height: 6;
+}
+
+/** section_4 **/
+.section4 {
+  background: #eee;
+  padding: 50px 0 50px;
+}
+.section4 h2 {
+}
+.section4 h2 a {
+  color: #333;
+}
+.section4 .news_wrap {
+  display: flex;
+  gap: 50px;
+}
+.section4 .news_cont {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+.section4 .news_cont img {
+  margin-bottom: 20px;
+  transition: all .4s;
+}
+.section4 .news_cont a:hover img{
+  transform: scale(1.1);
+}
+.section4 .news_text {
+
+}
+.section4 .news_text span {
+  color: #888;
+  font-size: 13px;
+}
+.section4 .news_text p {
+  color: #333;
+  margin-top: 5px;
+  font-size: 18px;
+  height: 80px;
+}
+.section4 .news_tag {
+
+}
+.section4 .news_tag ul::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  top: 90%;
+  left: 0;
+}
+.section4 .news_tag ul {
+  display: flex;
+  margin-top: 40px;
+}
+.section4 .news_tag ul li {
+  color: #aaa;
+  margin-right: 20px;
+}
+.section4 .news_tag ul li a {
+  color: #aaa;
+  font-size: 15px;
+}
+.section4 .news_tag ul li a:hover {
+  color: #666;
+  transition: .4s;
+  font-weight: 600;
+}

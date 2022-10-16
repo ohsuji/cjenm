@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.vision {
+  background: #fff;
+  padding-top: 100px;
+}
+.vision .over_view {
+  position: relative;
+}
+.vision .over_cont {
+
+}
+.vision .over_cont::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+.vision h2 {
+  color: #333;
+}
+.vision img {
+  margin-bottom: 30px;
+}
+.vision img::after {
+  
+}
+.vision .vision_title {
+  display: flex;
+}
+.vision .vision_title h3 {
+  color: #333;
+  font-size: 45px;
+  line-height: 1;
+}
+.vision .vision_title p {
+  color: #333;
+  padding-left: 30px;
+}
+.vision .select_value {
+}
+.vision .select_value select {
+  color: #333;
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+  background: #fff;
+  padding: 15px 15px 15px 0;
+  cursor: pointer;
+}
+.vision .select_value select option {
+
+}
+.vision .awards_wrap {
+
+}
+.vision .awards_wrap .awards_cont {
+  display: flex;
+  flex-direction: column;
+}
+.vision .awards_wrap .awards_cont h2 {
+
+}
+.vision .awards_wrap .awards_cont ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.vision .awards_wrap .awards_cont ul li {
+  width: calc(100% / 3 - 35px / 3);
+}
+.vision .awards_wrap .awards_cont ul li figure {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.vision .awards_wrap .awards_cont ul li figure img {
+  margin-bottom: 0;
+  transition: all .5s;
+}
+.vision .awards_wrap .awards_cont ul li:hover figure img {
+  transform: scale(1.05);
+}
+.vision .awards_wrap .awards_cont ul li .awards_text {
+
+  margin-bottom: 50px;
+}
+.vision .awards_wrap .awards_cont ul li .awards_text h4 {
+  color: #333;
+  font-size: 19px;
+}
+.vision .awards_wrap .awards_cont ul li .awards_text span {
+  font-size: 13px;
+  color: #888;
+  line-height: 2;
+  font-weight: 700;
+}
+.vision .awards_wrap .awards_cont ul li .awards_text p {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.vision .awards_wrap .awards_cont ul li .awards_text a {
+  color: #333;
+  font-size: 14px;
+}
+.vision .awards_wrap .awards_cont ul li .awards_text a:hover {
+  font-weight: 600;
+  transition: .4s;
+}
+.vision .awards_wrap .awards_cont ul li .awards_text img {
+  
+  width: 19px;
+  margin-bottom: 3px;
+}

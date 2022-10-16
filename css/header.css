@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/** header **/
+header {
+  position: fixed;
+  width: 100%;
+  background: #121212;
+  z-index: 9999;
+}
+header .header_wrap {
+  height: 100px;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+header .header_wrap h1 {
+}
+header .header_wrap h1 a {
+  line-height: 100px;
+}
+header .header_wrap h1 a img {
+  margin-bottom: 10px;
+}
+header .header_wrap .nav_bar {
+
+}
+header .header_wrap .nav_bar ul {
+  display: flex;
+}
+header .header_wrap .nav_bar ul li {
+
+}
+header .header_wrap .nav_bar ul li a {
+  color: #eee;
+  line-height: 100px;
+  display: block;
+  padding: 0 30px;
+}
+header .header_wrap .nav_bar ul li a:hover {
+  color: #ff5a00;
+  transition: .4s;
+}
+header .header_wrap .global {
+  line-height: 100px;
+}
+header .header_wrap .global img {
+  height: 25px;
+}
+header .header_wrap .global select {
+  border: none;
+  background: #121212;
+}
+header .header_wrap .global select option {
+  color: #333;
+}

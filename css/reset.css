@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #eee;
+  letter-spacing: 0.03em;
+}
+body {
+  background: #121212;
+}
+header, main, section, aside, article, footer, nav, figure{
+  display: block;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #eee;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/** common **/
+h2 {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 2;
+}
+.inner50 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0 50px;
+  clear: both;
+}
+.inner100 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0 100px;
+  clear: both;
+}
