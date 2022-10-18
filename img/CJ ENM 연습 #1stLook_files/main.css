@@ -2,29 +2,30 @@
 
 /** section_1 **/
 .section1 {
-  padding-top: 100px;
+  /*! padding: 100px 0 100px; */
+  height: 90vh;
 }
 .section1 h2 {
   font-size: 30px;
   line-height: 1.3;
-}  
+}
 .section1 h2 span {
   color: #ff5a00;
   font-size: 55px;
 }
 .section1 .content_wrap {
+  width: 100%;
+  height: 100%;
   display: flex;
-  gap: 45px;
-  overflow: hidden;
+  gap: 20px;
 }
 .section1 .content_wrap .content {
   position: relative;
 }
 .section1 .content_wrap .content .img_wrap {
-  width: 1330px;
 }
 .section1 .content_wrap .content .img_wrap a {
-  display: inline-block;
+  
 }
 .section1 .content_wrap .content .img_wrap img {
   
@@ -38,24 +39,16 @@
   display: none;
 }
 .section1 .content_wrap .content .section_text {
-  position: absolute;
+  /*! position: absolute; */
   top: 65%;
-  left: 0;
-  background: rgba(0,0,0,.4);
-  width: 100%;
-  padding: 10px 20px 25px 170px;
+  left: 10%;
 }
 .section1 .content_wrap .content .section_text h3 {
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 1.6;
+  font-size: 30px;
 }
 .section1 .content_wrap .content .section_text p {
-  color: #fff;
+  color: #ccc;
   font-size: 18px;
-  font-weight: 500;
-  
-  width: 950px;
 }
 
 /** section_2 **/
@@ -66,24 +59,23 @@
 .section2 h2 {
   
 }
-.section2 .look_wrap {
-  display: flex;
-}
-.section2 .look_kcon {
+.section2 img {
   
+  width: 550px;
 }
 .section2 .section_text {
+  float: right;
   position: relative;
-  margin: 45px 80px;
+  margin: 15px 0 30px 0;
 }
 .section2 .section_text p {
   font-size: 23px;
   text-align: center;
 }
 .section2 .section_text p strong {
-  font-size: 37px;
+  font-size: 40px;
+  font-family: 'Patua One', cursive;
   font-style: italic;
-  font-family: 'Libre Bodoni', serif;
 }
 .section2 .section_text .edit {
   display: flex;
@@ -160,7 +152,7 @@
   
 }
 .section3 .featured_wrap {
-  position: relative;
+  
 }
 .section3 .featured_wrap h3 {
   font-size: 28px;
@@ -175,126 +167,94 @@
   margin-bottom: 40px;
 }
 .section3 .featured_wrap ul li a {
-
-}
-.section3 .featured_wrap ul li a figure {
-  position: relative;
-  overflow: hidden;
-}
-.section3 .featured_wrap ul li a figure img {
   
 }
-.section3 .featured_wrap figure .featured_text {
-  background: rgba(0,0,0,.8);
-  padding: 20px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 80%;
+.section3 .featured_wrap ul li a figure {
+  
 }
-.section3 .featured_wrap figure:hover .featured_text{
-  animation-name: cardFadeIn;
-  animation-duration: 1000ms;
-  animation-fill-mode: forwards;
+.section3 .featured_wrap ul li a figure img {
+  position: relative;
 }
-
-@keyframes cardFadeIn{
-  from{
-    opacity: 0;
-    transform: translateY(0px);
-  }
-  to{
-    opacity: 1;
-    transform: translateY(-160px);
-  }
-}
-.section3 .featured_wrap .featured_text h4 {
+.section3 .featured_wrap h4 {
   font-size: 20px;
-  margin-bottom: 40px;
-  margin-top: 10px;
+  margin: 30px 0 10px;
 }
-.section3 .featured_wrap .featured_text p {
+.section3 .featured_wrap p {
   font-size: 15px;
   color: #ccc;
 }
 .section3 .featured_wrap span {
   font-size: 13px;
-  color: #999;
+  color: #888;
   line-height: 6;
 }
 
 /** section_4 **/
 .section4 {
   background: #eee;
+  padding: 50px 0 50px;
 }
 .section4 h2 {
-
 }
 .section4 h2 a {
   color: #333;
 }
 .section4 .news_wrap {
-
-}
-.section4 .news_wrap .news_cont {
-}
-.section4 .news_wrap .news_cont ul {
   display: flex;
-  gap: 32px;
+  gap: 50px;
 }
-.section4 .news_wrap .news_cont>ul>li {
+.section4 .news_cont {
+  position: relative;
   flex: 1;
-}
-.section4 .news_wrap .news_cont ul li a {
-  
-}
-.section4 .news_wrap .news_cont ul li a figure {
   overflow: hidden;
 }
-.section4 .news_wrap .news_cont ul li a img {
+.section4 .news_cont img {
+  margin-bottom: 20px;
   transition: all .4s;
 }
-.section4 .news_wrap .news_cont ul li a:hover img {
-  transform: scale(1.05);
+.section4 .news_cont a:hover img{
+  transform: scale(1.1);
 }
-.section4 .news_wrap .news_cont .news_text {
-  position: relative;
+.section4 .news_text {
+
 }
-.section4 .news_wrap .news_cont .news_text span {
+.section4 .news_text span {
   color: #888;
   font-size: 13px;
-  font-weight: 600;
 }
-.section4 .news_wrap .news_cont .news_text p {
+.section4 .news_text p {
   color: #333;
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 18px;
   height: 80px;
 }
-.section4 .news_wrap .news_cont .news_text p::after {
+.section4 .news_tag {
+
+}
+.section4 .news_tag ul::before {
   content: "";
   display: block;
   position: absolute;
-  background: #ccc;
   width: 100%;
   height: 1px;
-  bottom: 0;
+  background: #ccc;
+  top: 90%;
   left: 0;
 }
-.section4 .news_wrap .news_cont ul li .news_tag {
-
+.section4 .news_tag ul {
+  display: flex;
+  margin-top: 40px;
 }
-.section4 .news_wrap .news_cont ul li .news_tag ul {
-  font-size: 14px;
-  margin-top: 20px;
+.section4 .news_tag ul li {
+  color: #aaa;
+  margin-right: 20px;
 }
-.section4 .news_wrap .news_cont ul li .news_tag ul li {
-
+.section4 .news_tag ul li a {
+  color: #aaa;
+  font-size: 15px;
 }
-.section4 .news_wrap .news_cont ul li .news_tag ul li a {
-  color: #888;
-}
-.section4 .news_wrap .news_cont ul li .news_tag ul li a:hover {
-  font-weight: 500;
-  color: #333;
+.section4 .news_tag ul li a:hover {
+  color: #666;
+  transition: .4s;
+  font-weight: 600;
 }
