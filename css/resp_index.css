@@ -264,7 +264,7 @@
     padding: 50px 0 50px;
   }
   .inner50 {
-    padding: 25px 0 25px;
+    padding: 25px 0 20px;
   }
   /** common **/
   h2 {
@@ -345,9 +345,6 @@
     display: none;
   }
   /** footer **/
-  .footer .inner100 {
-    padding: 30px 0 30px;
-  }
   .footer .footer_text h3 {
     font-size: 14px;
   }
