@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media(max-width:1900px) {
+  header .header_wrap .nav_bar {
+    display: none;
+  }
   .section1 .content_wrap .content .img_wrap {
     width: 1270px;
   }
@@ -250,10 +253,109 @@
     font-size: 27px;
   }
   .footer .footer_wrap .enb ul{
-    font-size: 11px;
+    font-size: 10px;
   }
   .footer .footer_wrap .enb ul li img {
-    
-  margin: 0 15px 3px 5px;
+    margin: 0 15px 3px 5px;
+  }
+}
+@media(max-width:390px) {
+  .inner100 {
+    padding: 50px 0 50px;
+  }
+  .inner50 {
+    padding: 25px 0 20px;
+  }
+  /** common **/
+  h2 {
+    font-size: 23px;
+    padding-bottom: 15px;
+  }
+  /** header **/
+  header .header_wrap .global {
+    display: none;
+  }
+  /** section_1 **/
+  .section1 h2 {
+    font-size: 20px;
+  }
+  .section1 h2 span {
+     font-size: 28px;
+  }
+  .section1 .content_wrap .content .img_wrap {
+    width: 300px;
+  }
+  .section1 .content_wrap .content .section_text h3 {  
+    font-size: 20px;
+  }
+  .section1 .content_wrap .content .section_text {
+    padding: 10px 20px 25px 80px;
+  }
+  .section1 .content_wrap .content .section_text p {
+    display: none;
+  }
+  /** section_2 **/
+  .section2 .section_text {
+    margin: 0;
+  }
+  .section2 .section_text .edit {
+    display: none;
+  }
+  .section2 .section_text p {
+    font-size: 13px;
+    padding: 20px 0;
+  }
+  .section2 .section_text p strong {
+    font-size: 20px;
+  }
+  .section2 .section_text .more button {
+  margin-top: 25px;
+  margin-left: 70px;
+  }
+  .section2 .section_text .more button a {
+    font-size: 10px;
+  }
+  /** section_3 **/
+  .section3 .featured_wrap h3 {
+    font-size: 15px;
+  }
+  .section3 .featured_wrap ul {
+    gap: 10px;
+  }
+  .section3 .featured_wrap figure .featured_text {
+    display: none;
+  }
+  /** section_4 **/
+  .section4 .news_wrap .news_cont ul {
+    gap: 10px;
+  }
+  .section4 .news_wrap .news_cont .news_text {
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 100%;
+  }
+  .section4 .news_wrap .news_cont .news_text span {
+    display: none;
+  }
+  .section4 .news_wrap .news_cont .news_text p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .section4 .news_wrap .news_cont .news_text p::after {
+    display: none;
+  }
+  /** footer **/
+  .footer .inner100 {
+    padding: 30px 0 30px;
+  }
+  .footer .footer_text h3 {
+    font-size: 14px;
+  }
+  .footer .footer_wrap .enb select {
+    display: none;
+  }
+  .footer .footer_wrap .enb ul li img {
+    margin: 3px 15px 3px 3px;
+    height: 8px;
   }
 }
