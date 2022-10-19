@@ -18,44 +18,80 @@
   <script defer src="js/main.js"></script>
 
 </head>
-  <header>
-    <div class="header_wrap">
-      <h1>
-        <a href="index.html">
-          <img src="img/logo.svg" alt="씨제이 이엔엠">
-        </a>
-      </h1>
-      <div class="nav_bar">
-        <ul>
-          <li><a href="look.html">#1st Look</a></li>
-          <li><a href="vsionary.html">About Us</a>
-            <ul style="display: none;">
-              <span>About Us</span>
-              <li><a href="">Our Story</a></li>
-              <li><a href="">Business</a></li>
-            </ul>
-          </li>  
-          <li><a href="#">Featured Contents</a></li>
-          <li><a href="#">News Room</a></li>
-          <li><a href="#">Support</a>
-            <ul style="display: none;">
-              <span>Support</span>
-              <li><a href="">FAQ</a></li>
-              <li><a href="">Download</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
-          </li>  
-        </ul>
+  <!-- header -->
+  <div class="header_container">
+    <header>
+      <div class="header_main">
+          <h1>
+            <a href="index.html"><img src="img/logo.svg" alt="상단로고"></a>
+          </h1>
+          <button class="trigger">
+            <span class="icon_bar"></span>
+            <span class="icon_bar"></span>
+            <span class="icon_bar"></span>
+          </button>
+          <div class="gnb">
+            <div class="navbar">
+              <ul class="navbar_gnb">
+                <li>
+                  <a href="look.html">#1st Look</a>                
+                </li>    
+                <li>
+                  <a href="#">About Us</a>
+                  <div class="icon"></div>
+                  <ul class="sub">
+                    <li>
+                      <h3>Our Story</h3>
+                      <ul>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="vsionary.html">Visionary</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">History</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Business</h3>
+                      <ul>
+                        <li><a href="#">TV Shows</a></li>
+                        <li><a href="#">Film</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">Digital Business</a></li>
+                        <li><a href="#">Performing Arts</a></li>
+                        <li><a href="#">Animation</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Featured Contents</a>
+                </li>
+                <li>
+                  <a href="#">News Room</a>
+                </li>
+                <li>
+                  <a href="#">Support</a>
+                  <div class="icon"></div>
+                  <ul class="sub">
+                    <li><h3>Support</h3></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+        <div class="global">
+          <select name="" id="">
+            <option value="korea">KR</option>
+            <option value="english">EN</option>
+          </select>
+        </div>
       </div>
-      <div class="global">
-        <img src="img/global.png" alt="">
-        <select name="" id="">
-          <option value="korea">KR</option>
-          <option value="english">EN</option>
-        </select>
-      </div>
-    </div>
-  </header>
+    </header>
+    <div class="sub_shadow"> </div>
+  </div>
   <!-- header// -->
   <section class="vision">
     <div class="over_view inner50">
