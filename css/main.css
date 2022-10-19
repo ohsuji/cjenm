@@ -197,7 +197,6 @@
   animation-duration: 1000ms;
   animation-fill-mode: forwards;
 }
-
 @keyframes cardFadeIn{
   from{
     opacity: 0;
@@ -205,7 +204,7 @@
   }
   to{
     opacity: 1;
-    transform: translateY(-160px);
+    transform: translateY(-180px);
   }
 }
 .section3 .featured_wrap .featured_text h4 {
@@ -218,7 +217,7 @@
   color: #ccc;
 }
 .section3 .featured_wrap span {
-  font-size: 13px;
+  font-size: 12px;
   color: #999;
   line-height: 6;
 }

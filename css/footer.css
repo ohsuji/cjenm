@@ -71,7 +71,10 @@
   transition: .4s;
 }
 .footer .footer_wrap .enb select {
-  color: #333;
+  color: #eee;
+  border: none;
+  background: #0000;
+  width: 100px;
 }
 .footer .footer_wrap .enb select option {
   color: #111;
@@ -82,7 +85,6 @@
 .footer .footer_wrap .info ul {
   display: flex;
   padding: 35px 0 30px;
-  font-size: 14px;
 }
 .footer .footer_wrap .info ul li {
   position: relative;
@@ -93,16 +95,16 @@
   display: inline-block;
   position: absolute;
   width: 1px;
-  height: 15px; 
+  height: 62%; 
   background: #eee;
-  top: 5px;
+  top: 8px;
   right: -15px;
 }
 .footer .footer_wrap .info ul li:nth-child(7)::after {
   display: none;
 }
 .footer .footer_wrap .info ul li a {
-  
+  font-size: 12px;
 }
 .footer .footer_wrap .info ul li a:hover {
   color: #666;
