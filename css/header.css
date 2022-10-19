@@ -193,14 +193,11 @@ ul.navbar_gnb {
     .navbar_gnb > li.on .icon::before, 
     .navbar_gnb > li.on .icon::after {
     }
-    .sub_shadow {  
 
-    }
     .navbar_gnb > li.on > a {
         color: #ff5a00;
     }
 } 
-
 .global {
     position: absolute;
     top: 0;
@@ -211,4 +208,3 @@ ul.navbar_gnb {
     background: #121212;
     border: none;
 }
-
