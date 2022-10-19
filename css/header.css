@@ -132,9 +132,9 @@ ul.navbar_gnb {
     .gnb {
         position: fixed;
         top: 20px;
-        right: -350px;
+        right: -300px;
         bottom: 0;
-        width: 350px;
+        width: 300px;
         background: #121212;    
     }
     .navbar {

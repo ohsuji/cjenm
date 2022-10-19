@@ -37,9 +37,9 @@ $('.trigger').click(function(){
 
     if($(this).hasClass('open')){
         $('.gnb').animate({right:0},400);
-        $('header').animate({left:-350},400);
+        $('header').animate({left:-300},400);
     } else {
-        $('.gnb').animate({right:-350},300);
+        $('.gnb').animate({right:-300},300);
         $('header').animate({left:0},300);
     }
 });
@@ -52,7 +52,6 @@ $(window).resize(function(){
 });
 
 // slide
-
 
 var index = 0;   //이미지에 접근하는 인덱스
   window.onload = function(){

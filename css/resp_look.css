@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media(max-width:1169px) {
+  .look_main .look_before .look_title h3 {
+    font-size: 50px;
+  }
+  .look_main .look_before .look_title p {
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+  .look_main .look_before .edit {
+    display: none;
+  }
+  .look_main .look_before .look_cont .t_box1 p {
+    font-size: 25px;
+    margin: 35px;
+  }
+  .look_main .look_before .look_cont .t_box2 p {
+    font-size: 13px;
+  }
+}
+
+@media(max-width:768px) {
+  .look_main .look_before .look_title h3 {
+    font-size: 30px;
+  }
+  .look_main .look_before .look_title p {
+    font-size: 12px;
+  }
+  .look_main .look_before .look_link ul li a { 
+    font-size: 12px;
+  }
+  .look_main .look_before .look_link ul li:first-child {
+  display: none;
+  }
+  .look_main .look_before .look_cont .t_box1 p {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .look_main .look_before .look_cont .t_box2 p {
+    font-size: 11px;
+    padding: 30px 20px 30px;
+  }
+  .look_main .look_before .look_cont .t_box2 span {
+    font-size: 16px;
+  }
+}
+
+@media(max-width:390px) {
+  .look_main .look_before .look_title h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .look_main .look_before .look_title p {
+    display: none;
+  }
+  .look_main .look_before .look_cont .t_box1 p {
+    display: none;
+  }
+  .look_main .look_before .look_cont .t_box2 span {
+    font-size: 14px;
+  }
+  .look_main .look_before .look_cont .t_box2 p {
+    padding: 15px 20px 15px;
+  }
+}
