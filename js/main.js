@@ -1,19 +1,19 @@
 // header_menu 
 
 $('.navbar_gnb,.sub_shadow').on('mouseenter mouseleave',function(aa){
-  if($(window).width() > 1169){     
-      if(aa.type == 'mouseenter'){ 
-          $('.sub').stop().slideDown();
-          $('.sub_shadow').stop().fadeIn();
-          } else {
-          $('.sub').stop().slideUp(200,function(){
-              $('.sub').removeAttr('style');
-          });
-          $('.sub_shadow').stop().fadeOut(200,function(){
-              $(this).removeAttr('style');
-          });
-      }
-  }
+    if($(window).width() > 1169){     
+        if(aa.type == 'mouseenter'){ 
+            $('.sub').stop().slideDown();
+            $('.sub_shadow').stop().fadeIn();
+            } else {
+            $('.sub').stop().slideUp(200,function(){
+                $('.sub').removeAttr('style');
+            });
+            $('.sub_shadow').stop().fadeOut(200,function(){
+                $(this).removeAttr('style');
+            });
+        }
+    }
 });
 
 const $mainBtn = $('.navbar_gnb > li > a');  
@@ -52,10 +52,9 @@ $(window).resize(function(){
 });
 
 // slide
-
 var index = 0;   //이미지에 접근하는 인덱스
   window.onload = function(){
-      slideShow();
+    slideShow();
   }
   
   function slideShow() {
@@ -71,3 +70,4 @@ var index = 0;   //이미지에 접근하는 인덱스
   x[index-1].style.display = "block";  
   setTimeout(slideShow, 4000);  
 }
+

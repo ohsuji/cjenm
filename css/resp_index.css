@@ -142,8 +142,8 @@
     font-size: 10px;
   }
   .section2 .section_text .edit img {
-    width: 4vw;
-    height: 3vh;
+    width: 5vh;
+    height: 5vh;
   }
   .section2 .section_text .sns img {
     width: 2vw;
@@ -242,7 +242,8 @@
     font-size: 20px;
   }
   .section2 .section_text .edit img {
-    width: 38px;
+  width: 4vh;
+  height: 4vh;
   }
   .section2 .section_text .sns img {
     display: none;
